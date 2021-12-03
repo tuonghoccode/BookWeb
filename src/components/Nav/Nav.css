@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, 'Poppins',sans-serif;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem;
+  margin: 1rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__logo h3 {
+  color: #41135c;
+}
+
+.nav__logo img {
+  width: 60px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__link a {
+  color: #dbd6e2;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 .6rem;
+}
+
+.nav__link a:hover, .nav__link a:focus {
+  color: #41135c;
+}
+
+.nav__linkline {
+  padding: 0 .6rem;
+  font-size: 1.5rem;
+  color: #dbd6e2;
+}
+
+.nav__login {
+  width: auto;
+  height: auto;
+  background: red;
+  margin: 0 1.2rem;
+  padding: .4rem 1rem;
+  background: #41135c;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav__login:hover {
+  stroke: currentColor;
+  opacity: 0.8;
+}
+/*# sourceMappingURL=Nav.css.map */
